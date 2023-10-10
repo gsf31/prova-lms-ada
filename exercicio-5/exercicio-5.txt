@@ -16,7 +16,7 @@ D) –5, –2, 1, 4
 
 E) –5, –2, 1, 4, 7 <- Essa é a correta
 
-A reposta correta é a letra "B"
+A reposta correta é a letra "E"
 
 O código incia a variável "i" em -5 e incremento o seu valor em 3 a cada iteração, até que "i" seja menor ou igual a 7. Assim, o loop executa da seguinte forma:
 
