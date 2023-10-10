@@ -1,0 +1,29 @@
+5 - Analise o código a seguir.
+
+for (int i = -5; i <= 7; i += 3)
+{
+    Console.WriteLine(i);
+}
+Assinale a opção que apresenta corretamente o resultado produzido pela execução do trecho acima. Justifique o porque dessa opção.
+
+A) –2, 1, 4, 7, 10
+
+B) –5, –2, 1, 4, 10 
+
+C) –2, 1, 4, 7
+
+D) –5, –2, 1, 4
+
+E) –5, –2, 1, 4, 7 <- Essa é a correta
+
+A reposta correta é a letra "B"
+
+O código incia a variável "i" em -5 e incremento o seu valor em 3 a cada iteração, até que "i" seja menor ou igual a 7. Assim, o loop executa da seguinte forma:
+
+- Imprime i = -5;
+- Na próxima iteração, i torna-se -2, que também é impresso;
+- Depois, i torna-se 1 e é impresso novamente;
+- Logo após, i acrescido de 3 torna-se 4 e é impresso mais uma vez;
+- Por fim, i torna-se 7 e é impresso 
+
+Após isso a condição i <= 7 não será mais atendida.

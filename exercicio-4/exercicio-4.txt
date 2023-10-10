@@ -1,0 +1,21 @@
+4 - Ao executar o código a seguir será exibido qual valor no terminal? Justifique sua resposta.
+
+Int32 numero;
+numero = Convert.ToInt16(!(21 > 21));
+Console.WriteLine(numero);
+A) -1;
+
+B) 0;
+
+C) 1; <- ESSA É A CORRETA
+
+D) 21;
+
+E) Irá dar erro
+
+A resposta certa é a letra "C" e para entender isso precisamos entender alguns passos do que o código faz:
+
+Primeiramente o código verifica se 21 é maior do que 21 e isso será FALSE, pois 21 não é maior que 21, mas o operador lógico "!" indica negação, ou seja, ele inverterá o valor booleano de FALSE para TRUE. E por fim, o método "Convert.ToInt16" tentará converter o valor booleano TRUE para um inteiro de 16 bits o que resultará em dois possíveis resultados
+TRUE = 1
+FALSE = 0
+E como no fim do código a afirmação é considerada TRUE o valor impresso será 1. ALTERNATIVA C
